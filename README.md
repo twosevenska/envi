@@ -4,10 +4,11 @@
 
 ## What is this
 
-Currently Envi is just a naive implementation of a env var injector for single commands. It can load the env vars from two sources:
+Currently Envi is just a naive implementation of a env var injector for single commands. It can load the env vars from these sources, with each one overriding the vars before:
 
-* JSON files in the envis folder in the repo (every file except the example one are .gitignored)
-* A `envi.json` file present from the directory your command is running from (overrides envs from envis folder)
+* JSON files in the `.envis` folder in your home folder
+* JSON files in the `envis` folder in the repo (every file except the example one are .gitignored)
+* A `envi.json` file present from the directory your command is running from
 
 ## It's bothersome to always call this from where I cloned
 
