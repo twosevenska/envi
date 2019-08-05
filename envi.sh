@@ -19,4 +19,4 @@ if [ $# -eq 0 ]
     exit
 fi
 
-eval "$1"
+eval "$@"
