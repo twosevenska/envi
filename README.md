@@ -25,7 +25,19 @@ envi awesome.go
 Rather than
 
 ```shell
-ADDRESS=0.0.0.0 PORT=4224 MESSAGE="This is an obviously obnoxious message just to prove a point. Now let me quote something awesome from the Wizard of Oz: A baby has brains, but it doesn't know much. Experience is the only thing that brings knowledge, and the longer you are on earth the more experience you are sure to get." awesome.go
+ADDRESS="0.0.0.0" PORT="4224" MESSAGE="This is an obviously obnoxious message just to prove a point. Now let me quote something awesome from the Wizard of Oz: A baby has brains, but it doesn't know much. Experience is the only thing that brings knowledge, and the longer you are on earth the more experience you are sure to get." awesome.go
 ```
 
 It also helps in keeping the terminal history a bit more clean and easier to cycle through.
+
+## What do I need to put in my JSON files
+
+Refer to the envis folder for an example, however grabbing the terminal "versus" example from above:
+
+```Json
+{
+    "ADDRESS": "0.0.0.0",
+    "PORT": "4224",
+    "ADDRESS": "This is an obviously obnoxious message just to prove a point. Now let me quote something awesome from the Wizard of Oz: A baby has brains, but it doesn't know much. Experience is the only thing that brings knowledge, and the longer you are on earth the more experience you are sure to get."
+}
+```
